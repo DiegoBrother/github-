@@ -1,0 +1,37 @@
+.bottom {
+	height: 690px;
+	
+}
+.bottom-inner {
+	width: 1680px;
+	height: 600px;
+	
+	margin:0 auto;
+}
+.bottom-inner div {
+	width: 280px;
+	height: 500px;
+	
+	float: left;
+	margin-top: 80px;
+
+}
+.bottom h1 {
+	margin: 0;
+	font-size: 18px;
+	color: #24292e;
+
+}
+.bottom .one p {
+   margin-top: 16px;
+}
+.bottom ul li {
+    padding: 15px 0 0 0;
+
+}
+.bottom ul li a {
+	color: #6e747b;
+}
+.bottom ul li a:hover {
+	color: #267ace;
+}

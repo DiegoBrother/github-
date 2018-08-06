@@ -1,0 +1,337 @@
+/*版心*/
+* {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+ul {
+	margin: 0;
+	padding: 0;
+}
+h1,h5,p{
+    margin: 0;
+    padding: 0;
+}
+a {
+	text-decoration: none;
+}
+
+.clearfix:before,.clearfix:after { 
+  content:"";
+  display: table;  /* 这句话可以出发BFC BFC可以清除浮动,BFC我们后面讲 */
+}
+.clearfix:after {
+ clear:both;
+}
+.clearfix {
+  *zoom:1;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?axvffw');
+  src:  url('../fonts/icomoon.eot?axvffw#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?axvffw') format('truetype'),
+    url('../fonts/icomoon.woff?axvffw') format('woff'),
+    url('../fonts/icomoon.svg?axvffw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.top {
+	height: 78px;
+	background-color:#24292e ;
+	/* */
+}
+.top-inner {
+	width: 1629px;
+	height: 78px;
+	margin: 0 auto;
+	position: relative;
+	line-height: 78px;
+	
+}
+.fl {
+	float: left;
+	margin-left: 194px;
+}
+
+.fl li {
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+
+	
+}
+.fl li a {
+	text-decoration: none;
+	
+}
+.fl li a b {
+	color: #fff;
+}
+.fl li a b:hover{
+	color: #d0d0d0;
+}
+.logo {
+	position: absolute;
+	top: -14px;
+	left: 166px;
+	width: 47px;
+	height: 47px;
+}
+
+.fl li input {
+	width: 352px;
+	height: 38px;
+	border: none;
+	border-radius: 2px;
+	padding-left: 10px;
+	color: #8d8f91;
+	background-color: #404448;
+	
+}
+
+.search {
+	position: relative;
+	width: 352px;
+	height: 38px;
+}
+.search  a {
+	
+	position: absolute;
+	right: -2px;
+	top: 9px;
+}
+
+.fr {
+	float: right;
+	margin-right: 150px;
+}
+.fr li {
+	float: left;
+	padding: 0 10px;
+
+
+}
+.fr li i {
+	font-family: "icomoon";
+	font-size: 14px;
+	font-style: normal;
+	color: #c8c9ca;
+	text-align: center;
+}
+
+.fr .bell i {
+	font-size: 20px;
+}
+
+.fr li a i:hover {
+    color: #d0d0d0;
+}
+.fr li img{
+    padding-top: 19px; 
+    vertical-align: top;
+}
+.fr .dropdrow {
+	font-size: 8px;
+	color: #fff;
+}
+.fr .add {
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+}
+/*main-one开始*/
+.w {
+	width: 1638px;
+	height: 423px;
+	margin: 0 auto;
+	
+}
+
+.main-on {
+	height: 423px;
+	background-color: #2f363d;
+	position: relative;
+}
+.one-pic {
+	width: 376px;
+	height: 385px;
+	margin: 20px 0; 
+	float: left;
+	border-radius: 3px;
+	background-color: pink;
+	position: relative;
+}
+
+
+
+.w .one-pic .words {
+	width: 376px;
+	height: 193px;
+	line-height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0;  
+    overflow: hidden;
+
+   }
+.words .inner {
+   width: 300px;
+   margin: 0 auto;
+   color: #24292e;
+}
+
+  
+.main-on .w .one-pic img {
+	float: left;
+	display: inline-block;
+	width: 376px;
+	height: 385px;
+	border-radius: 3px;
+	position: absolute;
+	top: 0;
+	left: 0;
+    transition: all 0.6s;
+
+}
+
+.one-pic img:hover{
+				transform: scale(1.1);
+			}
+
+
+.two-pic {
+	float: left;
+	width: 774px;
+	height: 385px;
+	margin: 20px 20px;
+	border-radius: 3px;
+	background-color: pink;
+	position: relative;
+
+}
+.two-pic .words-two {
+	width: 774px;
+	height: 134px;
+	position: absolute;
+	/*background-color: #271a17;*/
+	background-color: rgba(39,26,23,.9);
+	left: 0;
+	bottom: 0;
+	margin: 0;
+	
+}
+
+.two-pic .words-two .inner {
+	width: 700px;
+	height: 100px;
+	/*background-color: pink;*/
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #fff;
+
+}
+.two-pic .words-two .inner h1 {
+	text-align: center;
+	margin: 0;
+	padding: 5px;
+	font-weight: 400;
+	font-size: 36px;
+
+}
+.two-pic .words-two .inner p {
+	text-align: center;
+	padding: 12px;
+	font-size: 18px;
+}
+
+
+.main-on .w .two-pic img {
+	float: left;
+	display: inline-block;
+	width: 774px;
+	height: 385px;
+	border-radius: 3px;
+	transition: all 0.6s;
+}
+.two-pic img:hover {
+     transform: scale(1.1);
+}
+.main-on .w .linearBar {
+	float: left;
+	display: inline-block;
+	width: 375px;
+    height: 379px;
+	margin: 18px 0;
+	background-image: linear-gradient(#fa1ea6,#fda506);
+	border-radius: 3px;
+	position: relative;
+	transition:all 0.6s;
+
+}
+.main-on .w .linearBar:hover {
+	transform: scale(1.1);
+}
+.linearBar .aa {
+	position: absolute;
+	display: inline-block;
+	width: 376px;
+	height: 383px;
+	top: 0px;
+	right: 0px;
+	
+	
+}
+.linearBar .aa  .pic {
+    display: inline-block;
+    position: absolute;
+    width: 378px;
+    height: 200px;
+    padding-top: 50px;
+    right: 0px;
+    top: 0px;
+}
+.linearBar .aa img {
+	float: left;
+	width: 300px;
+	height: 187px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -84px;
+   
+
+}
+
+.words-three {
+	width: 296px;
+	height: 180px;
+	position: absolute;
+	padding: 40px;
+	right: 0px;
+	bottom: 0px;
+	color: #fff;
+
+}
+.words-three h6 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+.words-three h1 {
+	font-size: 30px;
+    padding: 0;
+    margin: 0;
+    line-height: 38px;
+} 
+
+.words-three p {
+	margin-top: 10px;
+    line-height: 24px;
+} 
+
+/*main-one结束*/
